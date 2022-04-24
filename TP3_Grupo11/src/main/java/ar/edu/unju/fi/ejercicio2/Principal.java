@@ -18,8 +18,8 @@ public class Principal {
 		
 				if (num > 0 && num <= 9) {
 			
-					for(int i = 1; i < arreglo.length; i++) {
-					System.out.println(num + " x " + arreglo[i] + " = " + unaTabla.multiplicar(num, i));
+					for(int i = 0; i < arreglo.length; i++) {
+					System.out.println(num + " x " + arreglo[i] + " = " + unaTabla.multiplicar(num,arreglo[i]));
 					}
 				}else {
 					System.out.println("El número ingresado es incorrecto.");
